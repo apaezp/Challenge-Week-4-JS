@@ -1,0 +1,119 @@
+*{
+    text-align: center;
+}
+
+body{
+    background: #4e4d4d;
+    color: white;
+    display: grid;
+    grid-template-columns: 3fr 10fr;
+    width:100%;
+}
+
+nav{
+    
+    padding: 20px 20px; 
+    border-right: solid 1px white;
+    height:auto;
+    min-width: 150px;
+}
+
+nav section {
+    justify-content: space-around;
+    width: 80%;
+    margin: auto;
+
+}
+nav div{
+    margin-bottom: 20px;
+}
+
+.d-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+.d-flex input{
+    width: 70px;
+    height: 30px;
+    margin: 5px;
+    
+}
+
+
+#Propiedades {
+    padding: 0px 5%;
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 45px;
+}
+
+.propiedad { 
+    border-radius: 5%;
+    margin: auto;
+    background: rgba(255, 255, 255, 0.068);
+    width: 300px;
+    height: 450px;
+    box-shadow: 0px 0px 7px 1px rgba(255, 255, 255, 0.39);
+}
+
+.propiedad section{
+    padding: 10px 20px;
+}
+
+.propiedad section p{
+    margin: 0px
+}
+
+.img-container{
+    width: 300px;
+    height: 200px;
+}
+.img-container img{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    border-radius: 5%;
+}
+
+.info-container h5{
+   padding-top: 20px;
+}
+.rooms-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+.rooms-container p{
+    padding: 0px 20px 0px 20px;
+}
+.description{
+    padding: 0px 20px 0px 20px;
+}
+.btn{
+    background: #4e4d4d;
+    color: white;
+    border: none;
+    border-radius: 5%;
+    padding: 10px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: 0.3s;
+    
+}
+.btn-warning{
+    background: #ffc107;
+    color: black;
+    margin: 0.5em;
+    
+}
+.btn-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
